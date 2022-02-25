@@ -11,8 +11,9 @@ body {
 
 .header{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 50px;
     color: white;
+    margin-bottom: 80px;
 }
 .header h2{
     font-size: medium;
@@ -22,33 +23,33 @@ body {
     color: white;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-.caixaazul {
-    background-color: #70798C;
-    padding: 15px 30px;
-    border-radius: 5%;
+.descricao{
+    background-color: #464646;
+    width: 65%;
+    max-height: 500px;
+    border-radius: 15px;
+    margin: auto;
 }
 
-.caixamarrom {
-    background-color: #A99985;
-    padding: 15px 30px;
-    border-radius: 5%;
+.texto{
+    width: 500px;
+    display:inline-block;
+    margin-bottom: 8%;
+    margin-left: 8%;
+    margin-top: 8%
+}
+
+.texto h3{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.texto p{
+    font-size:25px;
 }
 
 #foto {
     border-radius: 5%;
+    float: right;
 }
 
 h1,
