@@ -24,7 +24,7 @@ body {
 }
 
 .descricao{
-    background-color: #464646;
+    background-color: #454443;
     width: 65%;
     max-height: 500px;
     border-radius: 15px;
@@ -32,11 +32,13 @@ body {
 }
 
 .texto{
-    width: 500px;
+    width:40%;
+    height: 400px;
+    overflow: auto;
     display:inline-block;
-    margin-bottom: 8%;
     margin-left: 8%;
-    margin-top: 8%
+    margin-top: 8%;
+    margin-bottom: 8%;
 }
 
 .texto h3{
@@ -48,8 +50,11 @@ body {
 }
 
 #foto {
-    border-radius: 5%;
-    float: right;
+    border-radius: 15px;
+    position: absolute;
+    right: 17.5%;
+    height: 500px;
+    width: auto;
 }
 
 h1,
@@ -60,12 +65,10 @@ h2 {
     font-weight: 700;
 }
 
-a {
+.texto a {
     text-decoration: none;
-    padding: 4px 30px;
-    background-color: #A99985;
     line-height: 27px;
-    border-radius: 5%;
+
     color: #252323;
 
 }
