@@ -22,12 +22,12 @@ body {
   color: white;
 }
 
-.header a{
-    text-decoration: none;
-    font-size: medium;
+.header a {
+  text-decoration: none;
+  font-size: medium;
 }
 
-.descricao {
+.blocofundo {
   background-color: #232323;
   width: 65%;
   max-height: 500px;
@@ -74,7 +74,6 @@ h2 {
 .texto a {
   text-decoration: none;
   line-height: 60px;
-  
   border-radius: 5px;
   font-size: 20px;
 }
@@ -92,6 +91,27 @@ h2 {
 }
 
 .trybe-green {
-    color: #11a36a;
-  }
+  color: #11a36a;
+}
 
+.transicao {
+  text-align: center;
+  margin: 35px;
+  font-size: 55px;
+}
+.textohab {
+  width: 60%;
+  height: 400px;
+  display: inline-block;
+  margin-left: 8%;
+  margin-top: 6%;
+  margin-bottom: 2%;
+}
+.textohab h3 {
+  font-size: 45px;
+  margin-bottom: 40px;
+}
+.textohab li {
+  font-size: 25px;
+  line-height: 45px;
+}
