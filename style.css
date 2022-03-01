@@ -22,6 +22,11 @@ body {
   color: white;
 }
 
+.header a{
+    text-decoration: none;
+    font-size: medium;
+}
+
 .descricao {
   background-color: #232323;
   width: 65%;
@@ -90,17 +95,3 @@ h2 {
     color: #11a36a;
   }
 
-.listaforte {
-  font-weight: 500;
-  font-size: 1.25em;
-}
-
-.listamedio {
-  font-weight: 500;
-  font-size: 1.15em;
-}
-
-.listamenor {
-  font-weight: 500;
-  font-size: 1.05em;
-}
