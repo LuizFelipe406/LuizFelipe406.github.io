@@ -1,89 +1,100 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
+  margin: 0;
+  padding: 0;
+}
 
 body {
-    background-color: #232323;
-    font-family: Epilogue;
-    color: white;
+  background-color: #232323;
+  font-family: Epilogue;
+  color: white;
 }
 
-.header{
-    text-align: center;
-    margin-top: 50px;
-    color: white;
-    margin-bottom: 80px;
+.header {
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+  margin-bottom: 80px;
 }
-.header h2{
-    font-size: medium;
-    color: white;
+.header h2 {
+  font-size: medium;
+  color: white;
 }
-.header h1{
-    color: white;
-}
-
-.descricao{
-    background-color: #454443;
-    width: 65%;
-    max-height: 500px;
-    border-radius: 15px;
-    margin: auto;
+.header h1 {
+  color: white;
 }
 
-.texto{
-    width:40%;
-    height: 400px;
-    overflow: auto;
-    display:inline-block;
-    margin-left: 8%;
-    margin-top: 8%;
-    margin-bottom: 8%;
+.descricao {
+  background-color: #454443;
+  width: 65%;
+  max-height: 500px;
+  border-radius: 15px;
+  margin: auto;
 }
 
-.texto h3{
-    font-size: 45px;
-    margin-bottom: 10px;
+.texto {
+  width: 40%;
+  height: 400px;
+  overflow: auto;
+  display: inline-block;
+  margin-left: 8%;
+  margin-top: 8%;
+  margin-bottom: 8%;
 }
-.texto p{
-    font-size:25px;
+
+.texto h3 {
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+.texto p {
+  font-size: 25px;
 }
 
 #foto {
-    border-radius: 15px;
-    position: absolute;
-    right: 17.5%;
-    height: 500px;
-    width: auto;
+  border-radius: 15px;
+  position: absolute;
+  right: 17.5%;
+  height: 500px;
+  width: auto;
 }
 
 h1,
 h2 {
-    color: #252323;
-    font-family: Barlow;
-    font-size: 35px;
-    font-weight: 700;
+  color: white;
+  font-family: Barlow;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
 .texto a {
-    text-decoration: none;
-    line-height: 27px;
+  text-decoration: none;
+  line-height: 60px;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 20px;
+}
 
-    color: #252323;
+.corlinkedin {
+  background-color: #0e76a8;
+  color: white;
+}
 
+.corgithub {
+  background-color: #171515;
+  color: white;
 }
 
 .listaforte {
-    font-weight: 500;
-    font-size: 1.25em;
+  font-weight: 500;
+  font-size: 1.25em;
 }
 
 .listamedio {
-    font-weight: 500;
-    font-size: 1.15em;
+  font-weight: 500;
+  font-size: 1.15em;
 }
 
 .listamenor {
-    font-weight: 500;
-    font-size: 1.05em;
+  font-weight: 500;
+  font-size: 1.05em;
 }
