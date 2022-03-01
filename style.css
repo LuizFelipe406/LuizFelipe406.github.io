@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #232323;
+  background-color: black;
   font-family: Epilogue;
   color: white;
 }
@@ -17,14 +17,13 @@ body {
 }
 .header h2 {
   font-size: medium;
-  color: white;
 }
 .header h1 {
   color: white;
 }
 
 .descricao {
-  background-color: #454443;
+  background-color: #232323;
   width: 65%;
   max-height: 500px;
   border-radius: 15px;
@@ -47,6 +46,7 @@ body {
 }
 .texto p {
   font-size: 25px;
+  margin-bottom: 20px;
 }
 
 #foto {
@@ -69,7 +69,7 @@ h2 {
 .texto a {
   text-decoration: none;
   line-height: 60px;
-  padding: 15px 30px;
+  
   border-radius: 5px;
   font-size: 20px;
 }
@@ -77,12 +77,18 @@ h2 {
 .corlinkedin {
   background-color: #0e76a8;
   color: white;
+  padding: 15px 30px;
 }
 
 .corgithub {
   background-color: #171515;
   color: white;
+  padding: 15px 37px;
 }
+
+.trybe-green {
+    color: #11a36a;
+  }
 
 .listaforte {
   font-weight: 500;
