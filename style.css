@@ -27,16 +27,22 @@ a {
   font-size: medium;
   color: black;
 }
-/* 
+ 
 .blocofundo {
   background-color: #232323;
-  width: 65%;
-  max-height: 500px;
   border-radius: 15px;
-  margin: auto;
-  margin-bottom: 50px;
   box-shadow: 2px 2px 2px 2px #871311;
-} */
+}
+
+.teste {
+  background-color: blue;
+}
+
+
+img {
+  height: 500px;
+}
+
 /* 
 .texto {
   width: 40%;
