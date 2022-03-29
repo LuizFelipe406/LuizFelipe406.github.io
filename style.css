@@ -4,29 +4,30 @@
 }
 
 body {
-  background-color: black;
+  /* background-color: black; */
   font-family: Epilogue;
-  color: white;
+  color: black;
 }
 
-.header {
+header {
   text-align: center;
-  margin-top: 50px;
-  color: white;
-  margin-bottom: 80px;
+  color: black;
 }
-.header h2 {
+header h2 {
   font-size: medium;
+  padding: 0;
+  margin: 0;
 }
-.header h1 {
-  color: white;
-}
+header h1 {
+  color: black;
+ }
 
-.header a {
+a {
   text-decoration: none;
   font-size: medium;
+  color: black;
 }
-
+/* 
 .blocofundo {
   background-color: #232323;
   width: 65%;
@@ -35,8 +36,8 @@ body {
   margin: auto;
   margin-bottom: 50px;
   box-shadow: 2px 2px 2px 2px #871311;
-}
-
+} */
+/* 
 .texto {
   width: 40%;
   height: 400px;
@@ -44,40 +45,40 @@ body {
   margin-left: 8%;
   margin-top: 5%;
   margin-bottom: 3%;
-}
+} */
 
-.texto h3 {
+/* .texto h3 {
   font-size: 45px;
   margin-bottom: 20px;
 }
 .texto p {
   font-size: 25px;
   margin-bottom: 20px;
-}
+} */
 
-#foto {
+/* #foto {
   border-radius: 15px;
   position: absolute;
   right: 17.5%;
   height: 500px;
   width: auto;
-}
+}  */
 
-h1,
+/* h1,
 h2 {
-  color: white;
-  font-family: Barlow;
+  /* color: white; */
+  /* font-family: Barlow;
   font-size: 35px;
   font-weight: 700;
   margin-bottom: 10px;
-}
+} */ 
 
-.texto a {
+/* .texto a {
   text-decoration: none;
   line-height: 60px;
   border-radius: 5px;
   font-size: 20px;
-}
+} */
 
 .corlinkedin {
   background-color: #0e76a8;
