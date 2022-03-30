@@ -4,9 +4,53 @@
 }
 
 body {
-  /* background-color: black; */
+  height: 100vh;
+  background-color: black;
   font-family: Epilogue;
   color: black;
+  padding-top: 10vh;
+}
+
+.box {
+  padding: 0 10px;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+}
+
+#foto {
+  padding: 0 5px;
+  min-height:80vh ;
+  background-image: url(profile.jpeg);
+  background-clip: content-box;
+  background-size: cover;
+  background-position: center;
+}
+
+#aboutme {
+  margin-top: 2em;
+}
+
+#aboutme hr {
+  margin-top: 3em;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  border: none;
+}
+
+#skills-container {
+  justify-content: space-around;
+}
+
+#skills-container #softskills {
+  flex-basis: 30%;
+}
+
+#skills-container li {
+  margin: 1em 0;
 }
 
 header {

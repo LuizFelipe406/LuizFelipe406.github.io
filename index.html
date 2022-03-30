@@ -18,19 +18,56 @@
         rel="stylesheet">
     <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5ecf8a7034.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header class="columns">
-        <div class="column is-three-fifths is-offset-one-fifth">
-            <h1 class="title">LUIZ FELIPE PEREIRA</h1>
-            <h2 class="subtitle is-5">18 years old | 04-06-2003 | WebDeveloper | Itajaí</h2>
-            <a class="subtitle is-6" href="#foto">Minha foto |</a>
-            <a class="subtitle is-6" href="#quemsou"> Quem sou |</a>
-            <a class="subtitle is-6" href="#habilidades"> Habilidades</a>
-        </div>
-    </header>
-    <main>
+    <main class="box column is-10 is-offset-1 is-flex">
+    <div id="foto" class="column is-4"></div>
+    <aside class="column is-6 is-offset-1 is-flex is-flex-direction-column">
+        <section id="aboutme" class="">
+            <div class="">
+                <h1 class="title is-1 is-spaced">LUIZ FELIPE PEREIRA</h1>
+                <h2 class="subtitle is-5 is-spaced">18 years old | 04-06-2003 | WebDeveloper | Itajaí</h2>
+                <p class="content is-normal">Sou natural de Balneario Camboriú-SC, atualmente morando em Itajaí-SC, tenho 18 anos, sou estudante de Desenvolvimento Web na Trybe, e apaixonado por Tecnologia e Aprender.
+            </div>
+            <hr>
+        </section>
+        <section id="skills" class="">
+                <h1 class="title is-2">My Skills</h1>
+                <div id="skills-container" class="is-flex">
+                    <div id="hardskills" class="is-flex is-flex-direction-column is-align-content-center">
+                        <h1 class="title is-4"><i class="fa-solid fa-computer"></i> HardSkills</h1>
+                        <ul class="subtitle is-6">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                    <div id="softskills" class="is-flex is-flex-direction-column is-align-content-center">
+                        <h1 class="title is-4"><i class="fa-solid fa-brain"></i> SoftSkills</h1>
+                        <ul class="subtitle is-6">
+                            <li>Tenho grande facilidade em aprender coisas nova</li>
+                            <li>Nivel Intermediário/Avançado em Inglês</li>
+                            <li>Sou bom em Comunicação, sempre liderei todos os meus trabalhos em grupo</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- <ul class="is-flex is-flex-wrap-wrap">
+                    <li><span><em>Tenho grande facilidade em aprender coisas novas</span></em></li>
+                    <li><span><em>Nivel Intermediário/Avançado em Inglês</em></span></li>
+                    <li><span><em>Sou bom em Comunicação, sempre liderei todos os meus trabalhos em grupo</em></span>
+                    </li>
+                    <li>
+                        
+                    </li>
+                </ul> -->
+            <hr>
+        </section>
+    </aside>
+    
+</main>
+    <!-- <main>
         <section class="columns">
             <div class="column is-three-fifths is-offset-one-fifth blocofundo is-flex">
                 <div class="column is-three-fifths teste " id="aboutme-content">
@@ -71,7 +108,7 @@
                 </ul>
             </div>
         </section>
-    </main>
+    </main> -->
 </body>
 
 </html>
