@@ -5,9 +5,8 @@
 
 body {
   height: 100vh;
-  background-color: black;
   font-family: Epilogue;
-  color: black;
+  color: white;
   padding-top: 10vh;
 }
 
@@ -33,7 +32,7 @@ main {
   margin-top: 2em;
 }
 
-#aboutme hr {
+hr {
   margin-top: 3em;
   width: 100%;
   height: 2px;
@@ -53,122 +52,20 @@ main {
   margin: 1em 0;
 }
 
-header {
-  text-align: center;
-  color: black;
-}
-header h2 {
-  font-size: medium;
-  padding: 0;
-  margin: 0;
-}
-header h1 {
-  color: black;
- }
-
-a {
-  text-decoration: none;
-  font-size: medium;
-  color: black;
-}
- 
-.blocofundo {
-  background-color: #232323;
-  border-radius: 15px;
-  box-shadow: 2px 2px 2px 2px #871311;
-}
-
-.teste {
-  background-color: blue;
-}
-
-
-img {
-  height: 500px;
-}
-
-/* 
-.texto {
-  width: 40%;
-  height: 400px;
-  display: inline-block;
-  margin-left: 8%;
-  margin-top: 5%;
-  margin-bottom: 3%;
-} */
-
-/* .texto h3 {
-  font-size: 45px;
-  margin-bottom: 20px;
-}
-.texto p {
-  font-size: 25px;
-  margin-bottom: 20px;
-} */
-
-/* #foto {
-  border-radius: 15px;
-  position: absolute;
-  right: 17.5%;
-  height: 500px;
-  width: auto;
-}  */
-
-/* h1,
-h2 {
-  /* color: white; */
-  /* font-family: Barlow;
-  font-size: 35px;
-  font-weight: 700;
-  margin-bottom: 10px;
-} */ 
-
-/* .texto a {
-  text-decoration: none;
-  line-height: 60px;
-  border-radius: 5px;
-  font-size: 20px;
-} */
-
 .corlinkedin {
   background-color: #0e76a8;
   color: white;
-  padding: 15px 30px;
 }
 
 .corgithub {
   background-color: #171515;
   color: white;
-  padding: 15px 37px;
 }
 
 .batman-red {
   color: #871311;
-  text-shadow: 5px 5px 5px black;
 }
 
-.transicao {
-  text-align: center;
-  font-size: 55px;
-  margin-bottom: 50px;
-}
-.textohab {
-  width: 60%;
-  height: 400px;
-  display: inline-block;
-  margin-left: 8%;
-  margin-top: 6%;
-  margin-bottom: 2%;
-}
-.textohab h3 {
-  font-size: 45px;
-  margin-bottom: 40px;
-}
-.textohab li {
-  font-size: 25px;
-  line-height: 45px;
-  color: #871311;
-}
-.textohab li span{
+h1 {
   color: white;
 }
