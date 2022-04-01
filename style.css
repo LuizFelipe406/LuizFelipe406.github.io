@@ -9,7 +9,7 @@ html {
 
 body {
   font-family: Epilogue;
-  color: #E0E1DD;
+  color: #e0e1dd;
   background-color: #070600;
 }
 
@@ -22,7 +22,7 @@ body {
 }
 
 .header-container a {
-  color: #E0E1DD;
+  color: #e0e1dd;
 }
 
 main {
@@ -32,7 +32,7 @@ main {
 
 #foto {
   padding: 0;
-  min-height:40vh ;
+  min-height: 40vh;
   background-image: url(profile.jpeg);
   background-clip: padding-box;
   background-size: cover;
@@ -59,7 +59,9 @@ main {
   margin: auto;
 }
 
-#aboutme, #skills, #contatos {
+#aboutme,
+#skills,
+#contatos {
   margin: 2em 0;
 }
 
@@ -122,7 +124,7 @@ hr {
   color: #871311;
 }
 
-@media screen and (min-width:1024px) and (max-width:1407px) {
+@media screen and (min-width: 1024px) and (max-width: 1407px) {
   main {
     display: flex;
     justify-content: space-between;
@@ -130,11 +132,11 @@ hr {
   }
 
   body {
-    background-color: black;
+    background-color: #070600;
   }
 
   .desktop-container {
-    background-color: #0a0908;
+    background-color: #101010;
     display: flex;
     width: 85%;
     height: 80vh;
@@ -164,7 +166,7 @@ hr {
     scroll-behavior: smooth;
   }
 
-  .text-container{
+  .text-container {
     margin-bottom: 4em;
   }
 
@@ -181,7 +183,7 @@ hr {
   }
 }
 
-@media screen and (min-width:1408px) {
+@media screen and (min-width: 1408px) {
   main {
     display: flex;
     justify-content: space-between;
@@ -189,11 +191,11 @@ hr {
   }
 
   body {
-    background-color: black;
+    background-color: #070600;
   }
 
   .desktop-container {
-    background-color: #0a0908;
+    background-color: #101010;
     display: flex;
     width: 85%;
     height: 80vh;
@@ -223,7 +225,7 @@ hr {
     scroll-behavior: smooth;
   }
 
-  .text-container{
+  .text-container {
     margin-bottom: 6em;
   }
 
@@ -235,7 +237,22 @@ hr {
     font-size: 1.5em;
   }
 
-  .list li, #aboutme p {
+  #skills-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #hardskills,
+  #softskills {
+    flex-basis: 45%;
+  }
+
+  #hardskills ul {
+    flex-direction: column;
+  }
+
+  .list li,
+  #aboutme p {
     font-size: 1.3em;
     margin-bottom: 1em;
     list-style: none;
@@ -254,5 +271,4 @@ hr {
   .button {
     font-size: 1.3em;
   }
-
 }
