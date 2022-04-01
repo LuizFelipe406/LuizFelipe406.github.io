@@ -4,14 +4,9 @@
 }
 
 body {
-  height: 100vh;
   font-family: Epilogue;
-  color: white;
-  padding-top: 10vh;
-}
-
-.box {
-  padding: 0 10px;
+  color: #E0E1DD;
+  background-color: #070600;
 }
 
 main {
