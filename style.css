@@ -9,42 +9,95 @@ body {
   background-color: #070600;
 }
 
+.header-container {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.5em;
+  margin: 15px auto;
+}
+
 main {
   margin: 0;
   padding: 0;
 }
 
 #foto {
-  padding: 0 5px;
-  min-height:80vh ;
+  padding: 0;
+  min-height:40vh ;
   background-image: url(profile.jpeg);
   background-clip: content-box;
   background-size: cover;
   background-position: center;
 }
 
-#aboutme {
-  margin-top: 2em;
+.picture-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.myNameTitle {
+  text-align: center;
+}
+
+.text-container {
+  margin-bottom: 2em;
+}
+
+#aside {
+  width: 80%;
+  margin: auto;
+}
+
+#aboutme, #skills, #contatos {
+  margin: 2em 0;
+}
+
+.section-title {
+  font-size: 2.3em;
+  margin-bottom: 0.5em;
+}
+
+#aboutme h2 {
+  font-size: 1.2em;
+  margin-bottom: 0.8em;
 }
 
 hr {
-  margin-top: 3em;
   width: 100%;
   height: 2px;
-  background-color: black;
+  background-color: #871311;
   border: none;
 }
 
-#skills-container {
-  justify-content: space-around;
+.list-title {
+  font-size: 1.3em;
+  margin-bottom: 0.7em;
 }
 
-#skills-container #softskills {
-  flex-basis: 30%;
+.list li {
+  margin-bottom: 0.8em;
+  list-style: none;
 }
 
-#skills-container li {
-  margin: 1em 0;
+#hardskills ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+#buttons {
+  display: flex;
+}
+
+.button {
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  flex-basis: 45%;
+  flex-grow: 1;
 }
 
 .corlinkedin {
@@ -59,8 +112,4 @@ hr {
 
 .batman-red {
   color: #871311;
-}
-
-h1 {
-  color: white;
 }
